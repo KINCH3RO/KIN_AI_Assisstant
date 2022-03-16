@@ -23,12 +23,14 @@ Download unity client / game / app whatever you wanna call it  via this link [Un
 
 Setup [Venv](https://flask.palletsprojects.com/en/2.0.x/installation/#virtual-environments)
 
-Run those command with command line tool
+Run those commands with command line tool
      
     - pip install Tensorflow 
     - pip install flask
     - pip install pyttsx3
     - pip install pandas
+    
+    
     - Run api.py via venv
     - extract the unity app
     - execute AI clone.exe

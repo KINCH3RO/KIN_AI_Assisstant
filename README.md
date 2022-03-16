@@ -31,9 +31,9 @@ Run those commands with command line tool
     - pip install pandas
     
     
-    - Run api.py via venv
-    - extract the unity app
-    - execute AI clone.exe
+- Run api.py via venv
+- extract the unity app
+- execute AI clone.exe
     
 
 

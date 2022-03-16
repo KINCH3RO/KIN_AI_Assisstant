@@ -1,0 +1,205 @@
+{
+    "intents": [
+        {
+            "isCommand": true,
+            "tag": "nextSong",
+            "patterns": [
+                "next song please",
+                "can you play the next song ",
+                "next song",
+                "next music",
+                "next music please",
+                "play the next song",
+                "play the next music"
+            ],
+            "responses": [
+                "done",
+                "next song played"
+            ]
+        },
+        {
+            "isCommand": false,
+            "tag": "time",
+            "patterns": [
+                "what's the time",
+                "can you tell the time ",
+                "what time is it"
+               
+            ],
+            "responses": [
+                "currently the time is <template>",
+                "it's <template>",
+                "the time is <template>",
+                "at the moment the time is <template>"
+            ]
+        },
+        {
+            "isCommand": false,
+            "tag": "purpose",
+            "patterns": [
+                "what's your purpose",
+                "how can you help me",
+                "what are you",
+                "your purpose"
+            ],
+            "responses": [
+                "im a machine learning Robot that could serve you",
+                "im a kiny AI voice assist",
+                "a voice assitant that could help you play music,weather infos,etc",
+                "a robot that could help you accomplish your tasks"
+            ]
+        },
+        {
+            "isCommand": true,
+            "tag": "music",
+            "patterns": [
+                "can you play",
+                "can you play some music",
+                "play some song",
+                "play me some music",
+                "play me some relaxation music",
+                "play me some chill music"
+            ],
+            "responses": [
+                "done"
+            ]
+        },
+        {
+            "isCommand": false,
+            "tag": "greeting",
+            "patterns": [
+                "hello",
+                "hi",
+                "hi,",
+                "yooo",
+                "greetings",
+                "hello kiny",
+                "what's up"
+            ],
+            "responses": [
+                "looking good",
+                "Hi",
+                "Hello sir how can i help you",
+                "welcome sir how i can i serve you"
+            ]
+        },
+        {
+            "isCommand": false,
+            "tag": "thanking",
+            "patterns": [
+                "thanks alot",
+                "that's awesome, you really helped me",
+                "much appreciate it",
+                "thank you",
+                "you are amazing",
+                "you are awesome"
+            ],
+            "responses": [
+                "no problem, any time sir",
+                "at your service,sir",
+                "happy to help",
+                "happy to help",
+                "any time sir"
+            ]
+        },
+        {
+            "isCommand": true,
+            "tag": "weather",
+            "patterns": [
+                "what's the weather",
+                "What's it like outside",
+                "How's the weather",
+                "What's the temperature"
+            ],
+            "responses": [
+                "at the moment, <template>",
+                "currently, <template>",
+                "<template>"
+            ]
+        },
+        {
+            "isCommand": true,
+            "tag": "open_text",
+            "patterns": [
+                "open the text editor",
+                "i would like to write some text",
+                "can you open the text editor",
+                "text editor"
+            ],
+            "responses": [
+                "text editor ready",
+                "done",
+                "ready to go"
+            ]
+        },
+        {
+            "isCommand": true,
+            "tag": "save_text",
+            "patterns": [
+                "save it",
+                "save the text",
+                "save"
+            ],
+            "responses": [
+                "text saved",
+                "done",
+                "ready to go"
+            ]
+        },
+        {
+            "isCommand": false,
+            "tag": "greeting+",
+            "patterns": [
+                "what's up ",
+                "how are you",
+                "hi,how are you",
+                "hello,how are you",
+                "hi,how are you doing today",
+                "yo,how is it going",
+                "hi,how do you do today"
+                
+            ],
+            "responses": [
+                "i'm doing good thanks",
+                "doing good ,thanks",
+                "looking good",
+                "feeling real good,arigato",
+                "feeling good,thank you"
+            ]
+        },
+        {
+            "isCommand": false,
+            "tag": "name",
+            "patterns": [
+                "who are you",
+                "what are you",
+                "what s your name"
+            ],
+            "responses": [
+                "Im kiny a chat bot that can help you",
+                "im kiny in your service",
+                "im kiny",
+                "my name is kiny",
+                "say hello to kiny a chat bot"
+            ]
+        },
+        {
+            "isCommand": false,
+            "tag": "goodbye",
+            "patterns": [
+                "goodbye kiny",
+                "see ya",
+                "see you later",
+                "later",
+                "see you tomorrow",
+                "bye"
+            ],
+            "responses": [
+                "good bye sir",
+                "good bye sir i hope i helped you today",
+                "see you soon sir",
+                "later"
+            ]
+        }
+    ]
+}
